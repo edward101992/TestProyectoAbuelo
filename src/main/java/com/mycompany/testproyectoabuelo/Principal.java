@@ -7,7 +7,7 @@ package com.mycompany.testproyectoabuelo;
 
 /**
  *
- * @author SuperUs
+ * @author Sebastian Rincon, Edward Ramos
  */
 public class Principal {
 
@@ -16,6 +16,9 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Menu menu = new Menu();
+        //m.Menu
     }
     
 }
