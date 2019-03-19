@@ -18,7 +18,7 @@ public class Principal {
         // TODO code application logic here
         
         Menu menu = new Menu();
-        //m.Menu
+        menu.Menu();
     }
     
 }

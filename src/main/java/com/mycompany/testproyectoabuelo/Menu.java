@@ -41,11 +41,17 @@ public class Menu {
         buscar(mapaAbuelo,cod);
     }
     
+   /**
+    * 
+    * Metodo que ingresa las personas al Mapa mapaAbuelo
+    */
     private void ingresarMapa(){
     
     mapaAbuelo = new HashMap<>();
     mapaAbuelo.put(1, new Persona(1, "Juan"));
     mapaAbuelo.put(1, new Persona(2,"Jose"));
+    
+    
     }
     
     /**
@@ -55,7 +61,7 @@ public class Menu {
      * @return 
      */
     
-    private String buscar(){
+    private String buscar(HashMap<Integer, Persona>mapaAbuleo, int cod){
         Persona Abuelo = null;
         Persona Padre = null;
         Persona Hijo = null;
